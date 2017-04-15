@@ -1,20 +1,18 @@
 <template>
-  <div class="memberinfo">
+  <div class="systemset">
+
     <h1>{{ msg }}</h1>
-    <mtable></mtable>
   </div>
 </template>
 
 <script>
-import mtable from '../component/mtable.vue'
 export default {
-  name: 'memberinfo',
+  name: 'systemset',
   data () {
     return {
-      msg: '第二页内容'
+      msg: 'systemset'
     }
-  },
-  components: {mtable}
+  }
 }
 </script>
 

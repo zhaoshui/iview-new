@@ -40,11 +40,35 @@
             回访管理
           </router-link> 
         </Menu-item>
+        <Menu-item name="6">
+          <router-link to="/smsanage">
+            <Icon type="settings"></Icon>
+            短信管理
+          </router-link> 
+        </Menu-item>
+        <Menu-item name="7">
+          <router-link to="/memberset">
+            <Icon type="settings"></Icon>
+            会员设置
+          </router-link> 
+        </Menu-item>
+        <Menu-item name="8">
+          <router-link to="/stareport">
+            <Icon type="settings"></Icon>
+            统计报表
+          </router-link> 
+        </Menu-item>
+        <Menu-item name="9">
+          <router-link to="/systemset">
+            <Icon type="settings"></Icon>
+            系统设置
+          </router-link> 
+        </Menu-item>
     </Menu>
 
     <router-view></router-view>
-    <!-- <br>
-    <p>切换主题</p>
+    <br>
+    <!-- <p>切换主题</p>
     <Radio-group v-model="theme1">
         <Radio label="light"></Radio>
         <Radio label="dark"></Radio>
